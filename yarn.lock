@@ -1784,12 +1784,10 @@
     "@testing-library/dom" "^8.5.0"
     "@types/react-dom" "^18.0.0"
 
-"@testing-library/user-event@^13.2.1":
-  version "13.5.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-13.5.0.tgz#69d77007f1e124d55314a2b73fd204b333b13295"
-  integrity sha512-5Kwtbo3Y/NowpkbRuSepbyMFkZmHgD+vPzYB/RJ4oxt5Gj/avFFBYjhw27cqSVPVw/3a67NK1PbiIr9k4Gwmdg==
-  dependencies:
-    "@babel/runtime" "^7.12.5"
+"@testing-library/user-event@^7.21.4":
+  version "14.4.3"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.4.3.tgz#af975e367743fa91989cd666666aec31a8f50591"
+  integrity sha512-kCUc5MEwaEMakkO5x7aoD+DLi02ehmEM2QCGWvNqAS1dV/fAvORWEjnjsEIvml59M7Y5kCkWN6fCCyPOe8OL6Q==
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -2768,6 +2766,28 @@ babel-preset-jest@^27.5.1:
     babel-plugin-jest-hoist "^27.5.1"
     babel-preset-current-node-syntax "^1.0.0"
 
+babel-preset-react-app@10.1.0-next.14+9802941f:
+  version "10.1.0-next.14"
+  resolved "https://registry.yarnpkg.com/babel-preset-react-app/-/babel-preset-react-app-10.1.0-next.14.tgz#a4c6a92e6e0e8d51075894beafa1d3eeaa8e14ed"
+  integrity sha512-/xYDXmFaTFqny9vVvsaNigvt0zzFRjjgi/3oTCeg3UzPKcWW1O6WG9JyeAV3d47Sewyr7i5B57nL5or32Vnn6A==
+  dependencies:
+    "@babel/core" "^7.16.0"
+    "@babel/plugin-proposal-class-properties" "^7.16.0"
+    "@babel/plugin-proposal-decorators" "^7.16.4"
+    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.16.0"
+    "@babel/plugin-proposal-numeric-separator" "^7.16.0"
+    "@babel/plugin-proposal-optional-chaining" "^7.16.0"
+    "@babel/plugin-proposal-private-methods" "^7.16.0"
+    "@babel/plugin-transform-flow-strip-types" "^7.16.0"
+    "@babel/plugin-transform-react-display-name" "^7.16.0"
+    "@babel/plugin-transform-runtime" "^7.16.4"
+    "@babel/preset-env" "^7.16.4"
+    "@babel/preset-react" "^7.16.0"
+    "@babel/preset-typescript" "^7.16.0"
+    "@babel/runtime" "^7.16.3"
+    babel-plugin-macros "^3.1.0"
+    babel-plugin-transform-react-remove-prop-types "^0.4.24"
+
 babel-preset-react-app@^10.0.1:
   version "10.0.1"
   resolved "https://registry.yarnpkg.com/babel-preset-react-app/-/babel-preset-react-app-10.0.1.tgz#ed6005a20a24f2c88521809fa9aea99903751584"
@@ -3178,6 +3198,11 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
+
+confusing-browser-globals@1.1.0-next.14+9802941f:
+  version "1.1.0-next.14"
+  resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.1.0-next.14.tgz#475adc3dc94ac67c5caa30e37c7892b983963f77"
+  integrity sha512-shpUugMlZFU47qCZ4BuoAoAlUKOjiO7Nhn1aVFx1RADeAbKdgJ1iFc18b9KPY5GRr4EnU22boZrMSlo/NfQzwQ==
 
 confusing-browser-globals@^1.0.11:
   version "1.0.11"
@@ -3957,6 +3982,26 @@ eslint-config-react-app@^7.0.1:
     "@typescript-eslint/parser" "^5.5.0"
     babel-preset-react-app "^10.0.1"
     confusing-browser-globals "^1.0.11"
+    eslint-plugin-flowtype "^8.0.3"
+    eslint-plugin-import "^2.25.3"
+    eslint-plugin-jest "^25.3.0"
+    eslint-plugin-jsx-a11y "^6.5.1"
+    eslint-plugin-react "^7.27.1"
+    eslint-plugin-react-hooks "^4.3.0"
+    eslint-plugin-testing-library "^5.0.1"
+
+eslint-config-react-app@^8.0.0:
+  version "7.1.0-next.14"
+  resolved "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-7.1.0-next.14.tgz#a3e5c98c59651100f1067063ac02a35269947573"
+  integrity sha512-E7nP1tWYDe2y3bS6MVIt/Iw3R3fYqhRqcQXGeMf066ohUaYoIZMbPpi69MjCxwjaqQOJUoYTKNO5oPwwc5Wpkg==
+  dependencies:
+    "@babel/core" "^7.16.0"
+    "@babel/eslint-parser" "^7.16.3"
+    "@rushstack/eslint-patch" "^1.1.0"
+    "@typescript-eslint/eslint-plugin" "^5.5.0"
+    "@typescript-eslint/parser" "^5.5.0"
+    babel-preset-react-app "10.1.0-next.14+9802941f"
+    confusing-browser-globals "1.1.0-next.14+9802941f"
     eslint-plugin-flowtype "^8.0.3"
     eslint-plugin-import "^2.25.3"
     eslint-plugin-jest "^25.3.0"
